@@ -1,0 +1,212 @@
+/*---- font ----*/
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: DancingScript;
+    src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: IndieFlower;
+    src: url(../fonts/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Tajawal;
+    src: url(../fonts/Tajawal-Regular.ttf);
+}
+
+/*---- header ----*/
+
+@media (min-width: 991px) {
+    header.scroll {
+        background: #f8f9fa;
+        transition: all .5s ease;
+    }
+
+    header .cl {
+        color: #fff !important;
+    }
+}
+
+@media (max-width: 991px) {
+    header.scrollsm {
+        background: #f8f9fa;
+        transition: all .5s ease;
+    }
+}
+
+header a {
+    font-family: Montserrat;
+}
+
+
+/*---- all ----*/
+p {
+    font-family: Roboto;
+}
+
+h2 {
+    font-family: Montserrat;
+}
+
+/*---- main ----*/
+.hero-section {
+    background-image: url(../images/mh-op-header.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section .hero-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.hero-section .hero-text h1 {
+    font-size: 120px;
+    font-family: IndieFlower;
+
+}
+
+.hero-section .hero-text p {
+    font-size: 25px;
+}
+
+@media (min-width: 1024px) {
+    .team-section .team-text {
+        padding-top: 190px !important;
+        padding-left: 100px !important;
+    }
+
+    .team-section .team-text h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+.team-section .team-text a {
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 9px 30px;
+}
+
+.work-section {
+    background: #f9f9f9;
+}
+
+.work-section .work-title h2 {
+    font-size: 40px;
+}
+
+.work-section .work-img {
+    position: relative;
+    cursor: pointer;
+}
+
+.work-section .work-img::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+}
+
+.work-section .work-img h3 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.testimonial-section {
+    background: #212121;
+}
+
+.testimonial-section .testimonial-item .carousel {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.testimonial-section .testimonial-item h4 {
+    font-family: DancingScript;
+}
+
+.testimonial-section .testimonial-item h5 {
+    font-family: IndieFlower;
+}
+
+.features-section .features-item i {
+    font-size: 55px;
+    padding: 20px;
+    color: #2378b1;
+}
+
+.features-section .features-item h3 {
+    margin: 8px 0;
+    font-family: Helvetica;
+
+}
+
+.features-section .features-item {
+    padding: 0 20px;
+}
+
+/*---- footer ----*/
+.top-footer {
+    background: #094f7f;
+}
+
+.top-footer .social .social-item {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+.top-footer .social i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bottom-footer.text-center.py-1 {
+    color: #fff;
+    background: #002137;
+}
